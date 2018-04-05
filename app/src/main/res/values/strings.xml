@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Get Location</string>
+    <string name="lbl_you_are_at">YOU ARE AT</string>
+    <string name="btn_get_location">GET Lat&amp;Long</string>
+    <string name="btn_send_loc">Send my location</string>
+    <string name="mar">marker</string>
+    <string name="get_info">Get Info</string>
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+</resources>

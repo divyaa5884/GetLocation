@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/view_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/marker"
+        android:contentDescription="@string/mar"
+        android:id="@+id/marker" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/lbl_you_are_at"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblLocation"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_weight="0.12" />
+
+    <Button
+        android:id="@+id/btnShowLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/btn"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/btn_get_location"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <Button
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_send_loc"
+        android:id="@+id/btnSendLoc"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:background="@drawable/btn"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
